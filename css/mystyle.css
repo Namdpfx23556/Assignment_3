@@ -59,6 +59,9 @@
     height: auto !important;
 
 }
+.goal-scopes{
+    height: max-content !important;
+}
 .goal{
     height: auto !important;
 }
