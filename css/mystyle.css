@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+.project{
+    display: grid !important;
+    justify-items: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(142, 48, 219);
+    color: aliceblue;
+}
+.question{
+    display: grid !important;
+    justify-items: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    color: aliceblue;
+    height: 30px !important;
+    width: 30px !important;
+}
+@media screen and (min-width:991px) {
+
+    .timeline{
+       margin-left: 1rem;
+    }
+    .primary{
+        margin-left: 1rem !important;
+    }
+    .team{
+        margin-left: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    .icon {
+        display: grid !important;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+   }
+@media screen and (max-width:991px) {
+ .team {
+    margin-left: 0px !important;
+    margin-bottom: 1rem !important;
+    height: auto !important;
+ }
+ .timeline{
+    margin-left: 0px !important;
+ }
+ .primary{
+    margin-left: 0px !important;
+    height: auto !important;
+}
+.scopes{
+    height: auto !important;
+
+}
+.goal{
+    height: auto !important;
+}
+.icon {
+    text-align:center;
+    display: grid !important;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+    align-items: center;
+    padding: 0px;
+    margin: 10px 0px !important;
+}
+.number{
+    justify-content: start;
+}
+
+}

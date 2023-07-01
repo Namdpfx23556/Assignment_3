@@ -1,0 +1,190 @@
+@media screen and (max-width: 678px) {
+  /* navbar */
+
+  .item3 {
+    display: none;
+  }
+  .dropdown-content > a {
+    display: block !important;
+    text-align: left;
+  }
+  .projectContainer{
+    text-align: left !important;
+    padding: 30px 40px;
+    padding-left: 0px;
+  }
+  .dropdown-content > a:hover{
+    background-color: grey;
+    color: aliceblue;
+  }
+  .projectContainer:hover{
+    background-color: grey;
+    color: aliceblue;
+  }
+  .dropdown-content {
+    display: block;
+  }
+  a[class^="item"]{
+    border: none !important;
+  }
+  .dropdownbtn{
+    display: block !important;
+    margin-top: -60px;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   margin-bottom: 30px;
+  }
+  .social {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+
+
+  /* phần Mục đích nghề nghiệp và thông tin các nhân */
+  .xac-thuc {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .container-info {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  #target {
+    padding: 25px;
+    margin: 0px 25px;
+  }
+  #personal-info {
+    padding: 25px 20px 25px 25px ;
+    margin: 0px 25px;
+  }
+  ul.mt-40.info {
+    padding-left: 0px;
+  }
+  #personal-info h2 {
+    padding-left: 0px;
+  }
+  /* Thông tin nghề nghiệp */
+  .job-ex {
+    margin: 0px 25px;
+  }
+  .job-hv {
+    margin: 0px 25px;
+  }
+  .job-hd {
+    margin: 0px 25px;
+  }
+  .job-st {
+    margin: 0px 25px;
+  }
+  .job-nn {
+    margin: 0px 25px;
+  }
+  .job-kn {
+    margin: 0px 25px;
+  }
+
+  /* phần icon sở thích */
+  .job-icon-st {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 2fr;
+    align-items: center;
+    justify-items: center;
+    align-content: space-evenly;
+    gap: 0px;
+  }
+
+  div[class^="icon"] {
+    min-width: 50px;
+    min-height: 50px;
+  }
+
+  /*phần chứng chỉ giải thưởng */
+  div[class^="nd"] {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+  .ctn-cc-gt {
+    padding: 0px 25px !important;
+  }
+
+  /* Dự án */
+  .du-an-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 3fr 1fr 1fr 3fr);
+    column-gap: 20px;
+    margin: 0px 25px;
+  }
+  .td-da {
+    margin-left: 30px;
+  }
+  .du-an-grid {
+    margin: 50px 30px;
+  }
+  .giua2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-auto-flow: row;
+    align-items: center;
+  }
+  .tablet {
+    grid-row: 1/3;
+    align-self: start;
+    margin-top: 10px;
+  }
+  .cong-nghe {
+    width: auto;
+  }
+  .tablet {
+    grid-row: 1/3;
+    align-self: flex-start;
+    justify-self: center;
+    width: fit-content;
+    transform: translateY(50%);
+    margin-top: 0px;
+  }
+
+  /* Dự án */
+  /* Dự án CV Cá nhân */
+  .img1 {
+    grid-row: 1/2;
+  }
+  .td1 {
+    grid-row: 2/3;
+  }
+  .nam1 {
+    grid-row: 3/4;
+  }
+  .bang1 {
+    grid-row: 4/5;
+  }
+  /* Dự án Trang web cá nhân */
+  .img2 {
+    grid-row: 5/6;
+  }
+  .td2 {
+    grid-row: 6/7;
+  }
+  .nam2 {
+    grid-row: 7/8;
+  }
+  .bang2 {
+    grid-row: 8/9;
+  }
+  /* Dự án Trang web xem tin tức */
+  .img3 {
+    grid-row: 9/10;
+  }
+  .td3 {
+    grid-row: 10/11;
+  }
+  .nam3 {
+    grid-row: 11/12;
+  }
+  .bang3 {
+    grid-row: 12/13;
+  }
+}
